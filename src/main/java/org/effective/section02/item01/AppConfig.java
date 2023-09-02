@@ -5,6 +5,6 @@ package org.effective.section02.item01;
 // public class AppConfig {
 //    @Bean
 //    public HelloService helloService() {
-//      return new ChineseHelloService();
+//      return new EnglishHelloService();
 //    }
 // }
