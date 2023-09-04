@@ -29,6 +29,14 @@ public class NutritionFacts2 {
                                                            .carbohydrate(27)
                                                            .build();
 
+    NutritionFacts2 build = NutritionFacts2.builder()
+                                           .servingSize(270)
+                                           .servings(20)
+                                           .calories(100)
+                                           .sodium(35)
+                                           .carbohydrate(27)
+                                           .build();
+
     System.out.println("cocaCola = " + cocaCola);
   }
 }
