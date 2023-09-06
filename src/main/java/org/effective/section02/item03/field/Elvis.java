@@ -6,9 +6,10 @@ public class Elvis implements IElvis, Serializable {
 
   /**
    * 싱글톤 오브젝트
+   * javadoc을 만들 때 주석을 활용할 수 있다.
    */
   public static final Elvis INSTANCE = new Elvis();
-  // javadoc을 만들 때 주석을 활용할 수 있다.
+  // 필드에 직접 접근하여 싱글톤을 보장
 
   private static boolean created;
 
@@ -18,6 +19,12 @@ public class Elvis implements IElvis, Serializable {
       throw new UnsupportedOperationException("can't be created by constructor");
     }
     created = true;
+  }
+
+  // 정적팩터리 메서드 (메서드를 통해서 접근)
+  // 필드에 직접 접근하는 것 처럼 1. 테스트 2. 리플렉션 3. 직렬화,역직렬화의 3가지 단점 동일
+  public static Elvis getInstance() {
+    return INSTANCE;
   }
 
   public void leaveTheBuilding() {
