@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.effective.section02.item03.ConcertTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-02T21:29:06" hostname="noaui-MacBookPro.local" time="0.02">
-  <properties/>
-  <testcase name="perform()" classname="org.effective.section02.item03.ConcertTest" time="0.02"/>
-  <system-out><![CDATA[I'll have a blue. christmas without you
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

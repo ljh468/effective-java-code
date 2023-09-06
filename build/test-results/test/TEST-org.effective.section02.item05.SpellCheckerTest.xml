@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.effective.section02.item05.SpellCheckerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-06T17:30:33" hostname="noaui-MacBookPro.local" time="0.008">
+  <properties/>
+  <testcase name="isValid()" classname="org.effective.section02.item05.SpellCheckerTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
