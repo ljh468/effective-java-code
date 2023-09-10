@@ -16,6 +16,8 @@ class PostRepositoryTest {
     PostRepository postRepository = new PostRepository();
     // Integer p1 = 1;
     CacheKey key1 = new CacheKey(1);
+    // 객체를 만들지 않고, Integer와 같은 타입으로 넘겨주면 강한 참조가 되서 제거되지 않음
+    // 한번 객체로 감싸서 WeakHashMap의 key로 사용해야 한다.
     postRepository.getPostById(key1);
 
     // cache에 남아있음
