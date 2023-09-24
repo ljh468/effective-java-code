@@ -53,6 +53,7 @@ public final class PhoneNumber {
 
   // 해시코드를 지연 초기화하는 hashCode 메서드 - 스레드 안정성까지 고려해야 한다. (71쪽)
   private volatile int hashCode; // 자동으로 0으로 초기화된다.
+  // volatile : CPU의 캐시에서 데이터를 가져오는게 아니라 메인 메모리에서 조회
 
   @Override
   public int hashCode() {
