@@ -15,8 +15,12 @@ public class TreeSetExample {
 //        numbers.add(4);
 //        numbers.add(6);
 
+        // 정렬 기준을 정의
         TreeSet<PhoneNumber> numbers = new TreeSet<>(Comparator.comparingInt(PhoneNumber::hashCode));
+
+        // 동기화 적용
         Set<PhoneNumber> phoneNumbers = Collections.synchronizedSet(numbers);
+
         phoneNumbers.add(new PhoneNumber(123, 456, 780));
         phoneNumbers.add(new PhoneNumber(123, 456, 7890));
         phoneNumbers.add(new PhoneNumber(123, 456, 789));
