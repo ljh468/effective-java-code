@@ -1,5 +1,6 @@
 package org.effective.section02.item05;
 
+import org.effective.section02.item05.dependencyinjection.DictionaryFactory;
 import org.effective.section02.item05.dependencyinjection.SpellChecker;
 import org.junit.jupiter.api.Test;
 
