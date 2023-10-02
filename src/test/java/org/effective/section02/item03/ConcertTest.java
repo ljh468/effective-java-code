@@ -2,6 +2,7 @@ package org.effective.section02.item03;
 
 import org.effective.section02.item03.field.Concert;
 import org.effective.section02.item03.field.Elvis;
+import org.effective.section02.item04.UtilityClass;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
