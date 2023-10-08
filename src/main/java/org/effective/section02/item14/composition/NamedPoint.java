@@ -11,7 +11,6 @@ public class NamedPoint implements Comparable<NamedPoint> {
         this.name = name;
     }
 
-    // Point view를 제공
     public Point getPoint() {
         return this.point;
     }
@@ -24,4 +23,5 @@ public class NamedPoint implements Comparable<NamedPoint> {
         }
         return result;
     }
+
 }
