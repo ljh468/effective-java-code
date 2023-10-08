@@ -1,0 +1,8 @@
+$you ain't nothing' but a hound dog.
+getCache().isEmpty() = false
+run gc
+wait
+getCache().isEmpty() = false
++The time is : Sun Oct 08 22:42:36 KST 2023
+running removeOldCache task
+?removing CacheKey{value=1, created=2023-10-08T22:42:36.962451}

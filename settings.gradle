@@ -1,3 +1,4 @@
 rootProject.name = 'effective-java-code'
+include 'name-service'
 include 'hello-module'
 
