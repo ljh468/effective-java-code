@@ -4,17 +4,17 @@ import java.util.Arrays;
 
 class DefaultMemberService implements MemberService {
 
-    private String name;
+  private String name;
 
-    private static class PrivateStaticClass {
-    }
+  private static class PrivateStaticClass {
+  }
 
-    private class PrivateClass {
-    }
+  private class PrivateClass {
+  }
 
-    public static void main(String[] args) {
-        Arrays.stream(PrivateClass.class.getDeclaredFields())
-              .forEach(System.out::println);
-    }
+  public static void main(String[] args) {
+    Arrays.stream(PrivateClass.class.getDeclaredFields())
+          .forEach(System.out::println);
+  }
 
 }

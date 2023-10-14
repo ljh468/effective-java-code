@@ -25,6 +25,7 @@ public class Person {
 
     // Address가 Redmond로 바뀔수 있다.
     Person person = new Person(seattle);
+    // Address에 접근하기를 원한다면 방어적 복사를 통해 새로운 객체를 반환
     Address redmond = person.getAddress();
     redmond.setCity("Redmond");
 
