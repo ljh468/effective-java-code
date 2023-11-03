@@ -1,9 +1,7 @@
 package org.effective.section03.item15.class_and_interfaces.item;
 
-import org.effective.section03.item15.class_and_interfaces.member.MemberService;
+import org.effective.section04.item15.class_and_interfaces.member.MemberService;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ItemServiceTest {
 
