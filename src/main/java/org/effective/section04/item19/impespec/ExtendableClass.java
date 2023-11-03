@@ -12,6 +12,7 @@ public class ExtendableClass {
      * Please use System.out.println().
      */
     protected void doSomething() {
+        // 동작 중간에 끼어들 수 있는 훅
         System.out.println("hello");
     }
 }
