@@ -16,6 +16,7 @@ public interface TimeClient {
 
   LocalDateTime getLocalDateTime();
 
+  // 구현이 명확한 경우 디폴트 메서드
   static ZoneId getZonedId(String zoneString) {
     try {
       return ZoneId.of(zoneString);

@@ -42,7 +42,7 @@ public class SimpleTimeClient implements TimeClient {
   public static void main(String... args) {
     TimeClient myTimeClient = new SimpleTimeClient();
     System.out.println(myTimeClient);
-    System.out.println(myTimeClient.getZonedDateTime("America/Los_Angeles"));
+    System.out.println(myTimeClient.getZonedDateTime("Asia/Seoul"));
   }
 
 }
