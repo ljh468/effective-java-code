@@ -1,5 +1,7 @@
 package org.effective.section05.genericdao;
 
+import org.effective.section05.item26.genericdao.Account;
+import org.effective.section05.item26.genericdao.AccountRepository;
 import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
